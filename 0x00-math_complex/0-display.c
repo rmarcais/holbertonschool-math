@@ -9,7 +9,10 @@ void display_complex_number(complex c)
 	if (c.re == 0)
 	{
 		if (c.im == 0)
+		{
+			printf("0\n");
 			return;
+		}
 		if (c.im != 0)
 		{
 			printf("%1.0fi\n", c.im);
